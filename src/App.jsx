@@ -1,7 +1,13 @@
+import CardsContainer from "./components/cards/CardsContainer";
+import NavBar from "./components/navBar/NavBar";
+
 function App() {
   return (
     <>
-      <div> My Projects </div>
+      <section className="container">
+        <NavBar />
+        <CardsContainer />
+      </section>
     </>
   );
 }

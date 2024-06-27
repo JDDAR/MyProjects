@@ -1,0 +1,30 @@
+@use "../variables" as v;
+@use "cardItem" as c;
+
+.cards-container {
+	width: 100%;
+	height: auto;
+
+
+	&__header {
+		height: 250px;
+		padding-top: 35px;
+
+		h2 {
+			color: v.$color-primary;
+			font-weight: 500;
+			font-size: 35px;
+		}
+	}
+
+	&__articles {
+		ul {
+			display: flex;
+			gap: 35px;
+			justify-content: space-between;
+			flex-wrap: wrap;
+		}
+	}
+
+	@include c.cardItem();
+}

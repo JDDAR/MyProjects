@@ -1,0 +1,25 @@
+@use "../variables" as v;
+
+header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid v.$color-primary;
+	height: 80px;
+	align-items: center;
+}
+
+.socialList {
+	display: flex;
+	list-style-type: none;
+	gap: 25px;
+
+	li {
+		font-size: 1.6rem;
+	}
+
+	a {
+		color: v.$color-primary;
+	}
+
+}

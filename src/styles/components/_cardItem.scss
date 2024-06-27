@@ -1,0 +1,32 @@
+@use "../variables" as v;
+
+@mixin cardItem() {
+
+	.cardContainer {
+		background: v.$color-bg-cards;
+		width: 400px;
+		height: 600px;
+		border-radius: 12px;
+		box-shadow: v.$box-shadow-card;
+
+		&__img {
+			width: 100%;
+			height: 70%;
+
+			img {
+				border-radius: 12px 12px 0px 0px;
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+
+		&__info {
+			padding: 25px;
+			display: flex;
+			flex-direction: column;
+			gap: 25px;
+		}
+	}
+
+}
