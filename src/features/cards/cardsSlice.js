@@ -15,7 +15,7 @@ const initialState = {
       id: "02",
       img: "https://i.pinimg.com/736x/3b/0c/84/3b0c8465572f6744c087a71fac5cb7cc.jpg",
       title: "Cards N°1",
-      description: "Lorem ipsum dolor sit amet consectetur adipiscing elit curae",
+      description: "Lorem ipsum dolor sit amet consectetur adipiscing elit curae Lorem",
       link: "",
       type: "Js",
     },

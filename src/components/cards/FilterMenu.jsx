@@ -6,7 +6,7 @@ const FilterButtons = ({ filter, handleFilterChange }) => {
 	const projectTypes = ["all", "react", "javascript", "python", "java", "sass"]; // Agrega más tipos según tus necesidades
 
 	return (
-		<div className="filter-buttons">
+		<div className="filter-menu">
 			{projectTypes.map(type => (
 				<a
 					key={type}
