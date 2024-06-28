@@ -4,10 +4,13 @@
 	margin-top: 50px;
 	display: flex;
 	gap: 35px;
+	overflow: hidden;
 
 	a {
 		color: v.$color-primary;
 		text-decoration: none;
+		transition: background-color 0.3s, color 0.3s;
+
 	}
 
 	.active {
