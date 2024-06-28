@@ -6,6 +6,7 @@ const cardsItems = [
 		description: "Lorem ipsum dolor sit amet consectetur adipiscing elit curae",
 		link: "",
 		type: "react",
+		tacks: "#Js #react #redux",
 	},
 	{
 		id: "02",
@@ -14,6 +15,7 @@ const cardsItems = [
 		description: "Lorem ipsum dolor sit amet consectetur adipiscing elit curae Lorem",
 		link: "",
 		type: "Js",
+		tacks: "#Js #react #redux",
 	},
 	{
 		id: "03",
@@ -22,6 +24,7 @@ const cardsItems = [
 		description: "Lorem ipsum dolor sit amet consectetur adipiscing elit curae",
 		link: "",
 		type: "python",
+		tacks: "#Js #react #redux",
 	},
 	{
 		id: "04",
@@ -30,6 +33,7 @@ const cardsItems = [
 		description: "Lorem ipsum dolor sit amet consectetur adipiscing elit curae",
 		link: "",
 		type: "python",
+		tacks: "#Js #react #redux",
 	},
 	{
 		id: "05",
@@ -38,6 +42,7 @@ const cardsItems = [
 		description: "Lorem ipsum dolor sit amet consectetur adipiscing elit curae",
 		link: "",
 		type: "python",
+		tacks: "#Js #react #redux",
 	},
 	{
 		id: "06",
@@ -46,6 +51,7 @@ const cardsItems = [
 		description: "Lorem ipsum dolor sit amet consectetur adipiscing elit curae",
 		link: "",
 		type: "python",
+		tacks: "#Js #react #redux",
 	},
 ];
 export default cardsItems;
