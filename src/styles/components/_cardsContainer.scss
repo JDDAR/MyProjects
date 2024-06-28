@@ -2,13 +2,9 @@
 @use "cardItem" as c;
 
 .cards-container {
-	width: 100%;
-	height: auto;
-
 	&__header {
 		height: 200px;
 		padding-top: 35px;
-
 
 		h2 {
 			color: v.$color-primary;

@@ -16,5 +16,8 @@ $box-shadow-card: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0p
 body {
 	font-family: $font-family;
 	background: $color-bg01;
+	height: 100vh;
+	display: grid;
+	grid-template-rows: 1fr auto;
 
 }

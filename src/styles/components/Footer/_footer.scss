@@ -1,0 +1,9 @@
+@use '../../variables' as v;
+
+.footer-container {
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	width: 100%;
+	border-top: 1px solid v.$color-primary;
+}
