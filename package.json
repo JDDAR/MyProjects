@@ -1,7 +1,7 @@
 {
   "name": "myprojects",
   "private": true,
-  "homepage": "https://JDDAR.github.io/MyProjects",
+  "homepage": "https://jddar.github.io/MyProjects",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
