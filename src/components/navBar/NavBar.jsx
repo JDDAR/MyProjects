@@ -25,7 +25,7 @@ const NavBar = () => {
             </a>
           </li>
           <li>
-            <a>
+            <a href="mailto:jdanaconar@gmail.com?subject=Solicitud de información&body=Hola, me gustaría obtener más información sobre...">
               <TiMail />
             </a>
           </li>
