@@ -10,13 +10,13 @@ const cardsItems = [
   },
   {
     id: "02",
-    img: "https://i.pinimg.com/736x/3b/0c/84/3b0c8465572f6744c087a71fac5cb7cc.jpg",
-    title: "Cards N°1",
+    img: "https://cdn.dribbble.com/userupload/15827632/file/original-aefee6484414b5cb29d29ef811e0b32b.png?resize=700x700",
+    title: "API-NASA",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit curae Lorem",
-    link: "",
-    type: "Js",
-    tacks: "#Js #react #redux",
+      "aplicación web que utiliza la API de la NASA para proporcionar información sobre diversas imágenes y datos espaciales.",
+    link: "https://jddar.github.io/NASAAPI/",
+    type: "react",
+    tacks: "#Js #react #API #Sass",
   },
   {
     id: "03",

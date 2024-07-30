@@ -8,14 +8,14 @@ const NavBar = () => {
     <>
       <header>
         <h2>Jose Daniel </h2>
-        <ul className="socialList" >
+        <ul className="socialList">
           <li>
-            <a>
+            <a href="https://github.com/JDDAR" target="_blank">
               <TiSocialGithub />
             </a>
           </li>
           <li>
-            <a>
+            <a href="www.linkedin.com/in/josedanielanacona">
               <TiSocialLinkedin />
             </a>
           </li>
